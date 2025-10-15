@@ -124,9 +124,7 @@ public class Methods {
 	 */
 	public static double arrayMean(int[] nums)
 	{
-		double sum = 0.0;
-		for (int val:nums)
-			sum += val;
+		double sum = arraySum(nums);
 		
 		return sum / nums.length;
 	}
